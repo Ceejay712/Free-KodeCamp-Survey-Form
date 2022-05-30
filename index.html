@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <section id="container">
+        <div id="header">
+            <h1><strong>FreeCodeCamp Survey Form</strong></h1>
+            <p>Thank you for taking the time to help us improve the platform</p>
+        </div>
+        <div id="form-container">
+            <form action="mailto:stanleyceejay@gmail.com?subject=Mail from freeCodeCamp Survey from" method="post" enctype="text/plain">
+                <div>
+                    <label for="FirstName">First Name</label>
+                    <br>
+                    <input type="text" class="input-style" placeholder="Enter your First Name" id="FirstName"/>
+                </div>
+                <div>
+                    <label for="LastName">Last Name</label>
+                    <br>
+                    <input type="text" class="input-style" placeholder="Enter your Last Name" id="LastName"/>
+                </div>                
+                <div>
+                    <label for="Email">Email</label>
+                    <br>
+                    <input type="email" class="input-style" placeholder="Enter your email" id="yourEmail"/>
+                </div>
+                <div>
+                    <label for="Age">Age(optional)</label>
+                    <br>
+                    <input type="number" class="input-style" placeholder="Enter your Age" id="yourAge" >
+                </div>
+                <div>
+                    <p class="paragraph">Gender</p>                    
+                    <input type="radio" name="gender" value="Male"><label for="Male" class="improve">Male</label>
+                    <br>
+                    <input type="radio" name="gender" value="Female"><label for="Female" class="improve">Female</label>
+                    <br>
+                    <input type="radio" name="gender" value="Prefer Not to Say"><label for="Prefer Not to Say" class="improve">Prefer Not to Say</label>
+                </div>
+                <br>             
+                <div>
+                    <p>Educational Level?</p>
+                    <select id="selectOptions" class="input-style">
+                        <option disabled selected value="">Select Level of Education</option>
+                        <option value="Student">High School</option>
+                        <option value="Full Time Role">Undergraduate</option>
+                        <option value="Full Time Learner">BSc</option>
+                        <option value="Prefer not to say">Masters</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <p class="paragraph">Do you have a Laptop</p>                    
+                    <input type="radio" name="laptop" value="Yes"><label for="Yes" class="improve">Yes</label>
+                    <br>
+                    <input type="radio" name="laptop" value="Yes"><label for="No" class="improve">No</label>
+                </div>
+                <br>
+                <div>
+                <p>How did you hear about KodeCamp?</p>
+                <select id="selectOptions" class="input-style">
+                    <option disabled selected value="">Select</option>
+                    <option value="Friends">Friends</option>
+                    <option value="Social Media">Social Media</option>
+                    <option value="School">School</option>
+                    <option value="Work">Work</option>
+                    <option value="Other">Other</option>
+                </select>
+                </div>
+                <div>
+                    <p>What Track are you registering for?</p>
+                    <select id="selectOptions" class="input-style">
+                        <option disabled selected value="">Select Track</option>
+                        <option value="Front-End">Front-End</option>
+                        <option value="Back-End">Back-End</option>
+                        <option value="UI/UX">UI/UX</option>
+                        <option value="Android">Android</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Digital Marketting">Digital Marketting</option>
+                        <option value="Nodejs">Nodejs</option>
+                        <option value="Python">Python</option>
+                        <option value="Product Management">Product Management</option>
+                        <option value="IoT">IoT</option>
+                        <option value="Entrepreneurship">Entrepreneurship</option>
+                        <option value="CAD">CAD</option>                        
+                        <option value="Other">Other</option>                        
+                    </select>
+                </div>
+                <div>
+                    <p class="paragraph">What Level are you on?</p>                    
+                    <input type="radio" name="level" value="Beginner"><label for="Beginner" class="improve">Beginner</label>
+                    <br>
+                    <input type="radio" name="level" value="Intermediate"><label for="Intermediate" class="improve">Intermediate</label>
+                </div>
+                <br>
+                <div>
+                    <p class="paragraph">Tell us about yourself</p>
+                    <textarea class="input-style" row="30" column="10" placeholder="Tell us"></textarea>
+                </div>
+                <div>
+                    <p>Country?</p>
+                    <select id="selectOptions" class="input-style">
+                        <option disabled selected value="">Select Country</option>
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="Canada">Canada</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="South Africa">South Africa</option>
+                        <option value="Kenya">Kenya</option>
+                        <option value="Germany">Germany</option>
+                        <option value="United Arab Emirates">United Arab Emirates</option>
+                        <option value="United States of America">United States of America</option>                        
+                        <option value="Other">Other</option>                        
+                    </select>
+                </div>
+                <br>                                      
+                <div>
+                    <input type="submit" class="submit-form">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

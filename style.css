@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    color: white;
+}
+
+/* styling the main container */
+#container{
+    
+    background-image:linear-gradient(
+        115deg,
+        rgba(154, 20, 232, 0.4),
+        rgba(104, 104, 151, 0.363)
+      ), url(https://i.postimg.cc/Nj9jYZpR/andras-vas-Bd7g-Nn-WJBk-U-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* styling header */
+#header{
+    text-align: center;
+    padding: 30px 0;
+}
+/* Styling the form section */
+#form-container{
+    font-size: 18px;
+    font-family:sans-serif, 'Times New Roman', Times, serif;
+    padding: 3%;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background: #b3202ca2;
+}
+
+/* Styling name */
+.input-style{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.input-style:focus{
+    border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* Styling Select */
+option{
+    font-size: 14px;
+    padding: 15px 0;
+}
+
+/* textarea */
+textarea{
+    height: 150px;
+}
+
+/* Styling paragraph */
+.paragraph{
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+/* Styling submit button */
+.submit-form{
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    border-radius: 25px;
+    border: none;
+    font-size: 14px;
+    background: #6a69d1de;
+    text-decoration: none;  
+    font-size: 14px;
+    color: black;
+}
